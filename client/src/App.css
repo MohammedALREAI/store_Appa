@@ -1,0 +1,22 @@
+.bookComponent {
+    align-items: center;
+    width: 16rem;
+}
+.bookComponent img,
+.backup-img {
+    height: 14rem;
+    width: 14rem;
+}
+.btn {
+    margin: 2px;
+}
+
+.backup-img {
+    text-align: center;
+    padding-top: 45%;
+    background-color: rgb(102, 101, 101);
+    color: white;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}

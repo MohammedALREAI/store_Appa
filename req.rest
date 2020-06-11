@@ -1,0 +1,17 @@
+GET http://localhost:5000
+
+###
+GET http://localhost:3000/books/id
+
+###
+PUT  http://localhost:3000/books/id
+###
+DELETE   http://localhost:3000/books/id
+###
+POST    http://localhost:3000/books
+Content-Type: application/json
+{
+    "title": "tilte",
+    "pageCount": "123",
+    
+}
